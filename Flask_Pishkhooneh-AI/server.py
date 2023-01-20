@@ -64,6 +64,9 @@ def predictHouse():
     suitable_rent = loaded_model.predict(values)[0]
     buyValues = [min_buy, max_buy, suitable_buy]
     rentValues = [min_rent, max_rent, suitable_rent]
+    for index in range(len(buyValues)):
+        buyValues[index]=int(str(int(buyValues[index]))[:-1])
+        rentValues[index]=int(str(int(rentValues[index]))[:-1])
     return {'buy': {'minimum': min(buyValues), 'maximum': max(buyValues)},
             'rent': {'minimum': min(rentValues), 'maximum': max(rentValues)}}
 
