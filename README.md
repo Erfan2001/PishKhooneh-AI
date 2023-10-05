@@ -12,7 +12,7 @@ Furthermore, PishKhooneh offers users a personal dashboard where they can manage
 
 ## AI Section
 
-
+In this project, I leveraged a diverse array of machine learning algorithms, including deep learning techniques, to construct predictive models for real estate prices in megacities of Iran, with a particular focus on Tehran. Our system employs web scraping techniques to gather data from various Iranian websites, ensuring that our models are built on the most up-to-date and relevant house price information available.
 
 Implemented By Erfan Nourbakhsh
 
